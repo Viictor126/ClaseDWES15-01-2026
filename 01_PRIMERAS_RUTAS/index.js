@@ -8,7 +8,7 @@ app.use(express.json())
 app.use("/api/coches", rutaCoches)
 
 
-// rutas de saludo
+// rutas de saludo para aprender (no debería estar aquí)
 /**
 app.get("/saludo",(req,res) =>{
   res.status(200).send("Hola me llamo saba y quiero ser programador")
